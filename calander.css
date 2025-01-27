@@ -1,0 +1,62 @@
+.calendar-section {
+	padding: 3rem 5%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.calendar-navigation {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 2rem;
+	padding: 0 1rem;
+}
+
+.calendar-navigation h2 {
+	color: var(--primary-color);
+	margin: 0;
+}
+
+.month-button {
+	background: var(--secondary-color);
+	color: var(--white);
+	border: none;
+	padding: 0.8rem 1.5rem;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background 0.3s;
+}
+
+.month-button:hover {
+	background: var(--primary-color);
+}
+
+.event-calendar {
+	width: 100%;
+	border-collapse: collapse;
+	background: var(--white);
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.event-calendar th,
+.event-calendar td {
+	padding: 1.2rem;
+	border: 1px solid #eee;
+	text-align: left;
+}
+
+.event-calendar th {
+	background: var(--primary-color);
+	color: var(--white);
+	font-weight: bold;
+}
+
+.event-calendar tr:nth-child(even) {
+	background-color: #f8f9fa;
+}
+
+.event-calendar tr:hover {
+	background-color: #f1f1f1;
+}

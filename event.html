@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="events.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo-container">
+            <img src="images/iteam.jpg" alt="Iteam University Logo" class="logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="p1.html">Home</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="calendar.html">Calendar</a></li>
+        </ul>
+    </nav>
+
+    <main class="event-forms">
+        <div class="form-container">
+            <h2>Enterprise Day Registration</h2>
+            <form class="registration-form">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <select required>
+                    <option value="">Select Event</option>
+                    <option>Career Fair 2025</option>
+                    <option>Tech Workshop</option>
+                </select>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+
+        <div class="form-container">
+            <h2>Training/Workshop Registration</h2>
+            <form class="registration-form">
+                <select required>
+                    <option value="">Event Type</option>
+                    <option>Training</option>
+                    <option>Workshop</option>
+                    <option>Club</option>
+                    <option>Ceremony</option>
+                </select>
+                <input type="date" required>
+                <textarea placeholder="Additional Message"></textarea>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025 Iteam University - All rights reserved</p>
+    </footer>
+</body>
+</html>
